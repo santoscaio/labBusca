@@ -12,8 +12,10 @@
 ```
 
 2- redirecionar o hosts
-    * C:\Windows\System32\drivers\etc\hosts
-    * 127.0.0.1	busca.local
+```
+* C:\Windows\System32\drivers\etc\hosts
+* 127.0.0.1	busca.local
+```
 
 3- testar URL
     * Chamar a url "busca.local" e validar se retorna o seguinte texto:
