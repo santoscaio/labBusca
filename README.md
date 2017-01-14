@@ -32,12 +32,14 @@ Email: santoscaio@gmail.com
     - Busca uma vaga no JSON
     - method: **GET**
     - http://busca.local/vaga/[KEYWORD]
+    - ex: http://busca.local/vaga/Analista
     - Campo obrigatório: **[KEYWORD]** => Filtro no titulo ou descrição
     - Retorno: **dados da vaga(s)**
 - Buscar vaga com palavra chave e ordenação
     - Busca uma vaga no JSON
     - method: **GET**
     - http://busca.local/vaga/[KEYWORD]/[ORDER]
+    - ex: http://busca.local/vaga/Analista/desc/
     - Campo obrigatório: **[KEYWORD]** => Filtro no titulo ou descrição
     - Campo obrigatório: **[ORDER]** => Ordenação por valor do salário
     - Retorno: **dados da vaga(s)**
@@ -45,6 +47,7 @@ Email: santoscaio@gmail.com
     - Busca uma vaga no JSON
     - method: **GET**
     - http://busca.local/vaga/[KEYWORD]/[ORDER]/[CITY]
+    - ex: http://busca.local/vaga/Analista/asc/Florianópolis
     - Campo obrigatório: **[KEYWORD]** => Filtro no titulo ou descrição
     - Campo obrigatório: **[ORDER]** => Ordenação por valor do salário
     - Campo obrigatório: **[CITY]** => Filtra os resultados da busca pela cidade
