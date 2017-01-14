@@ -23,6 +23,7 @@ $app->get('/', function () use ($app) {
 	echo 'Email: santoscaio@gmail.com' . '<br>';
 });
 
+// Define as rotas para retorno das requisições
 $app->get('vaga/{keyword}/{order}/{city}', 'VagaController@select'); //
 $app->get('vaga/{keyword}/{order}', 'VagaController@select'); //
 $app->get('vaga/{keyword}', 'VagaController@select'); //

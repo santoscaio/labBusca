@@ -1,7 +1,7 @@
 # API de Contato
 
 ## Configurações
-1. criar um vhost
+1- criar um vhost
 ```
 <VirtualHost *:80>
     DocumentRoot "C:/xampp/htdocs/busca.local"
@@ -10,10 +10,10 @@
     CustomLog "logs/busca_local-access.log" common
 </VirtualHost>
 ```
-2. redirecionar o hosts
+2- redirecionar o hosts
     * C:\Windows\System32\drivers\etc\hosts
     * 127.0.0.1	busca.local
-3. testar URL
+3- testar URL
     * Chamar a url "busca.local" e validar se retorna o seguinte texto:
 ```
 Busca JSON
